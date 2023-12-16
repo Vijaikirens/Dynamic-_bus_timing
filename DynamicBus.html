@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DynamicBus.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Noto+Sans:wght@500;600&family=Poppins&family=Quicksand&display=swap"
+        rel="stylesheet">
+
+    <title>Swift Arrive</title>
+</head>
+
+<body>
+    <div class="header">
+        <header id="head">
+            <h1>Swift Arrive</h1>
+        </header>
+    </div>
+
+    <div class="main-content">
+        <div class="side-menu">
+            <ul>
+                <li>
+                    <a href="#">Track Bus</a>
+                </li>
+                <li>
+                    <a href="#">User Profile</a>
+                </li>
+                <li>
+                    <a href="#">Passenger Review</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <section id="destination">
+            <div class="heading">
+                <h2>Select Destination</h2>
+            </div>
+
+            <form>
+                <label for="destination" class="label">Choose your destination:</label>
+                <select id="destination" name="destination">
+                    <option value="destination1" class="district">Palakkad</option>
+                    <option value="destination2" class="district">Ernakulam</option>
+                    <option value="destination2" class="district">Kottayam</option>
+                    <option value="destination2" class="district">Alappuzha</option>
+                    <option value="destination2" class="district">Idukki</option>
+                    <option value="destination2" class="district">Kannur</option>
+                    <option value="destination2" class="district">Kasaragod</option>
+                    <option value="destination2" class="district">Thiruvanathapuram</option>
+                    <option value="destination2" class="district">Kollam</option>
+                    <option value="destination2" class="district">Patahanamthitta</option>
+                    <option value="destination2" class="district">Thrissur</option>
+                    <option value="destination2" class="district">Malappuram</option>
+                    <option value="destination2" class="district">Wayanad</option>
+                </select>
+
+                <button type="submit">Get Bus Information</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Swift Arrive</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
