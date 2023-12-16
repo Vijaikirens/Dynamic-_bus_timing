@@ -1,0 +1,94 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+}
+
+.side-menu {
+    background-color: #333;
+    color: white;
+    width: 200px;
+    padding: 1rem;
+    margin:0.2rem;
+    display: flex;
+    height:100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.side-menu ul li{
+    margin-top:1rem;
+}
+#head {
+    margin-bottom: 20px;
+}
+
+#destination {
+    flex: 1;
+    padding: 2rem;
+    font-size: large;
+}
+.district{
+    font-size: 15px;
+}
+.heading {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.side-menu a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
